@@ -1,7 +1,6 @@
 "use client";
 
 import { useState, useRef, useEffect } from "react";
-import { PomodoroSettings } from "@/components/PomodoroSettings";
 import { cn } from "@/lib/utils";
 import { motion, AnimatePresence } from "framer-motion";
 import { useTheme } from "./ThemeProvider";
@@ -431,6 +430,7 @@ export function Sidebar({
                                 );
                               }
                             } catch (error) {
+                              console.log(error);
                               toast.error("Failed to enable notifications");
                             }
                           } else {
