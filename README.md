@@ -1,36 +1,137 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🍅 Modern Pomodoro Timer
 
-## Getting Started
+A beautiful and functional Pomodoro Timer application built with Next.js, TypeScript, and Tailwind CSS. Stay focused and boost your productivity with this modern take on the Pomodoro Technique.
 
-First, run the development server:
+![Pomodoro Timer](public/pomodoro-logo.png)
+
+## ✨ Features
+
+- **🎯 Beautiful Timer Interface**
+
+  - Clean, modern design with smooth animations
+  - Light and dark mode support
+  - Gradient backgrounds with subtle patterns
+  - Responsive layout for all devices
+
+- **📋 Task Management**
+
+  - Create, complete, and delete tasks
+  - Track Pomodoro sessions per task
+  - Automatic task persistence
+  - Clean task list interface with animations
+  - Task statistics overview
+
+- **⚙️ Customizable Settings**
+
+  - Adjustable focus and break durations
+  - Sound notifications
+  - Browser notifications
+  - Theme preferences
+  - Settings persistence
+
+- **📝 Quick Notes**
+
+  - Built-in notes feature
+  - Automatic saving
+  - Clean markdown-style editor
+
+- **🎨 User Experience**
+  - Floating/draggable sidebar
+  - Smooth animations throughout
+  - Toast notifications
+  - Keyboard shortcuts
+  - Custom scrollbars
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js 18+
+- npm or yarn
+
+### Installation
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/yourusername/pomodoro-timer.git
+cd pomodoro-timer
+```
+
+2. Install dependencies
+
+```bash
+npm install
+# or
+yarn install
+```
+
+3. Start the development server
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Built With
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- [Next.js](https://nextjs.org/) - React framework
+- [TypeScript](https://www.typescriptlang.org/) - Type safety
+- [Tailwind CSS](https://tailwindcss.com/) - Styling
+- [Framer Motion](https://www.framer.com/motion/) - Animations
+- [React Hot Toast](https://react-hot-toast.com/) - Notifications
 
-## Learn More
+## 📱 Usage
 
-To learn more about Next.js, take a look at the following resources:
+1. **Timer Controls**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   - Start/pause the timer
+   - Switch between focus and break modes
+   - Reset the current session
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+2. **Task Management**
 
-## Deploy on Vercel
+   - Add tasks using the input field
+   - Click the checkbox to complete tasks
+   - Delete tasks using the delete button
+   - View task statistics at a glance
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. **Settings**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+   - Adjust focus duration (5-60 minutes)
+   - Set break duration (1-30 minutes)
+   - Toggle sound notifications
+   - Enable/disable browser notifications
+   - Choose light/dark theme
+
+4. **Notes**
+   - Access quick notes from the sidebar
+   - Notes are automatically saved
+   - Use for session planning or quick thoughts
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to:
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- Inspired by the Pomodoro Technique by Francesco Cirillo
+- Icons from [Lucide Icons](https://lucide.dev/)
+- Font by [Inter](https://rsms.me/inter/)
+
+---
+
+Made with ❤️ for productivity enthusiasts
